@@ -17,6 +17,11 @@ The organisation's profile: [`profile/README.md`](profile/README.md) is what
 and `tulip.svg` at the repo root, published by GitHub Pages (Settings → Pages → Deploy from branch → `main` / root)
 at https://olya-haydamaka.github.io.
 
+- **No third-party requests**, like the tools: the fonts are served from the site's own `fonts/` folder (Cormorant
+  Garamond and JetBrains Mono, Latin and Cyrillic, SIL Open Font License, licences beside them).
+- **English by default.** Ukrainian only once a visitor chooses it (remembered in the browser); the page never
+  guesses from the browser's language.
+
 ## Adding a tool
 
 - Copy the `<article class="tool">` block in the website's `index.html` and fill it in.
